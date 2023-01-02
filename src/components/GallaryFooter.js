@@ -1,7 +1,11 @@
-export default function(){
+import "./GalleryFooter.css";
+
+let GalleryFooter=()=>{
   return(
-    <footer className='footer-content'>
-      <h3>Author: Kalvium</h3>
+    <footer className='footerContent'>
+      <h3>Made with 💗 by Kalvian.</h3>
     </footer>
   )
 }
+
+export default GalleryFooter;
